@@ -1,0 +1,48 @@
+.input-with-error {
+    border: 1px red solid;
+    border-radius: 2px;
+}
+
+.error-text {
+    color: red;
+    margin: -1rem 0 1rem 0;
+    font-size: 12px;
+}
+
+.calculate-button {
+    padding: 0.5rem;
+    border: 0.5rem black solid;
+    background-color: black;
+    border-radius: 0.5rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+
+.date-time-picker {
+    width: 50%;
+    min-width: 250px;
+  }
+
+.tooltip {
+  margin-left: 0.25rem;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
